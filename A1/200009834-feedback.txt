@@ -1,0 +1,24 @@
+Task 1 
+
+A "Query" is something what you can formulate almost like in an SQL SELECT command, e.g.
+List details of all customers who made 5 or more orders over the last 12 months". Your list of queries is rather a list of questions that will be asked of the data, mentioning stakeholders asking them, but it fits the purpose.
+
+Specification captures most of the requirements, but, for example, it does not mention that genre is multivalued attribute, or that a book can have more than one edition. Furthermore, it's not clear what is "quantity" attribute of an order - how does that explain what's the quantity of each book included in the order, being an attribute of an order?
+
+Task 2
+
+- Specialisation into hardcover/paperback/audio is not disjoint - a book may be available in several formats
+
+- good to see weak entity set use in reviews (note you could also make a "reviews" relationship set, and keep review content as its attribute)
+
+- Still missing: how an order can include multiple copies of a particular book?
+
+- no indication where data to answer queries from Task 2 are located. For example, how does "staff check the inventory of books"? 
+
+Task 3
+
+Good to read how did you work on the project and what you have learned.
+
+Overall, your model captures main features of what is to be modelled, but has some shortcomings, e.g. it does not correctly handle orders with multiple copies of the same book, and does not allow multiple genres. The report shows some insight into the underlying issues, although could have been better structured and written.
+
+Also, please remember to put matriculation number in the report so it can be easily attributed to you.
